@@ -1,0 +1,16 @@
+body {
+    background-size: cover;
+    text-align: center;
+}
+
+canvas {
+    border-radius: 5px;
+    animation-name: a-canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a-canvas {
+    from {box-shadow: 5px 5px 5px red;}
+    to {box-shadow: 5px 5px 5px purple}
+}
